@@ -6,16 +6,15 @@
 using namespace std;
 using namespace std::chrono;
 
-const int MAX_SIZE = 100; // Maximum size of stack
+const int MAX_SIZE = 100; 
 
 class Stack {
   private:
-    int arr[MAX_SIZE]; // Array to hold stack elements
-    int top; // Index of the top element in stack
-
+    int arr[MAX_SIZE]; 
+    int top; 
   public:
     Stack() {
-      top = -1; // Initializing top to -1 as stack is initially empty
+      top = -1; 
     }
 
     bool push(int x) {
